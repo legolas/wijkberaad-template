@@ -1,0 +1,41 @@
+<assembly>
+	<id>template</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+
+	<includeBaseDirectory>false</includeBaseDirectory>	
+
+	<fileSets>
+		<fileSet>
+			<directory>src/main/web</directory>
+			<outputDirectory>/</outputDirectory>
+			<includes>
+				<include>**/*.css</include>
+				<include>**/*.html</include>
+				<include>**/*.ini</include>
+				<include>**/*.js</include>
+				<include>**/*.php</include>
+				<include>**/*.xml</include>
+			</includes>
+			<useDefaultExcludes>true</useDefaultExcludes>
+			<lineEnding>unix</lineEnding>
+			<fileMode>0644</fileMode>
+			<directoryMode>0755</directoryMode>
+			<filtered>true</filtered>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/web</directory>
+			<outputDirectory>/</outputDirectory>
+			<includes>
+				<include>**/*.ico</include>
+				<include>**/*.gif</include>
+				<include>**/*.png</include>
+			</includes>
+			<useDefaultExcludes>true</useDefaultExcludes>
+			<lineEnding>keep</lineEnding>
+			<fileMode>0644</fileMode>
+			<directoryMode>0755</directoryMode>
+		</fileSet>
+	</fileSets>
+</assembly>
