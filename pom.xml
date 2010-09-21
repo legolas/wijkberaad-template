@@ -5,7 +5,7 @@
 	<artifactId>wijkberaad-template</artifactId>
 	<packaging>pom</packaging>
 	<version>0.0.1</version>
-	<description>Joomla! template for End of Dull Art</description>
+	<description>Joomla! template for Wijkberaad Houtwijk</description>
 	<build>
 		<plugins>
 			<plugin>
