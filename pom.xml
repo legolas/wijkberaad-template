@@ -4,7 +4,7 @@
 	<groupId>nl.endofdullart.web.joomla.template</groupId>
 	<artifactId>wijkberaad-template</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.1</version>
+	<version>1.0.2</version>
 	<description>Joomla! template for Wijkberaad Houtwijk</description>
 	<build>
 		<plugins>
