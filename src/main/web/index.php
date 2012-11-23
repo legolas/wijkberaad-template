@@ -40,11 +40,7 @@ var excludeModules='<?php echo $tmpTools->getParam('excludeModules'); ?>';
 <script language="javascript" type="text/javascript" src="<?php echo $tmpTools->templateurl(); ?>/js/ja.rightcol.js"></script>
 <?php endif; ?>
 
-<?php  if($this->direction == 'rtl') : ?>
-<link rel="stylesheet" href="<?php echo $tmpTools->templateurl(); ?>/css/template_rtl.css" type="text/css" />
-<?php else : ?>
 <link rel="stylesheet" href="<?php echo $tmpTools->templateurl(); ?>/css/menu.css" type="text/css" />
-<?php endif; ?>
 
 <?php if ($this->countModules('hornav')): ?>
 <?php if ($tmpTools->getParam('horNavType') == 'css'): ?>
@@ -111,7 +107,7 @@ function makeTransBG() {
 
 <!-- BEGIN: HEADER -->
 <div id="ja-headerwrap">
-	<div id="ja-header" class="clearfix" style="background: url(<?php echo $tmpTools->templateurl(); ?>/images/header/<?php echo $tmpTools->getRandomImage(dirname(__FILE__).DS.'images/header'); ?>) no-repeat top <?php if($this->direction == 'rtl') echo 'left'; else echo 'right';?>;">
+	<div id="ja-header" class="clearfix" style="background: url(<?php echo $tmpTools->templateurl(); ?>/images/header/<?php echo $tmpTools->getRandomImage(dirname(__FILE__).DS.'images/header'); ?>) no-repeat top right';">
 
 	<?php
 		$siteName = $tmpTools->sitename();
