@@ -11,8 +11,14 @@
 	<description>Wijkberaad Houtwijk Template is a template based on tq_vista developed by TranQuangGroup, designed by End Of Dull Art.</description>
 	<files>
 		<filename>component.php</filename>
-		<filename>css/index.html</filename>
 		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>ja_templatetools.php</filename>
+		<filename>ja_vars.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>css/index.html</filename>
 		<filename>html/com_content/article/default.php</filename>
 		<filename>html/com_content/article/index.html</filename>
 		<filename>html/com_content/category/blog_item.php</filename>
@@ -22,7 +28,6 @@
 		<filename>html/com_content/index.html</filename>
 		<filename>html/com_content/section/blog_item.php</filename>
 		<filename>html/com_content/section/index.html</filename>
-		<filename>html/index.html</filename>
 		<filename>html/mod_acymailing/default.php</filename>
 		<filename>html/mod_acymailing/index.html</filename>
 		<filename>html/mod_acymailing/popup.php</filename>
@@ -33,18 +38,14 @@
 		<filename>html/mod_footer/index.html</filename>
 		<filename>html/mod_login/default.php</filename>
 		<filename>html/mod_login/index.html</filename>
+		<filename>html/index.html</filename>
 		<filename>html/modules.php</filename>
 		<filename>html/pagination.php</filename>
 		<filename>images/index.html</filename>
-		<filename>index.html</filename>
-		<filename>index.php</filename>
-		<filename>ja_templatetools.php</filename>
-		<filename>ja_vars.php</filename>
 		<filename>js/ja.cssmenu.js</filename>
 		<filename>js/ja.moomenu.js</filename>
 		<filename>js/ja.rightcol.js</filename>
 		<filename>js/ja.script.js</filename>
-		<filename>params.ini</filename>
 		<filename>styles/background/index.html</filename>
 		<filename>styles/background/lighter/images/index.html</filename>
 		<filename>styles/background/lighter/index.html</filename>
@@ -61,7 +62,6 @@
 		<filename>styles/header/green/index.html</filename>
 		<filename>styles/header/index.html</filename>
 		<filename>styles/index.html</filename>
-		<filename>templateDetails.xml</filename>
 	</files>
 	<images>
 		<filename>images/BannerBackground.png</filename>
@@ -146,13 +146,15 @@
 		<filename>images/icon-search.gif</filename>
 		<filename>images/icon-tips.gif</filename>
 		<filename>images/icon-user.gif</filename>
+		<filename>images/icon_facebook.png</filename>
 		<filename>images/icon_list.gif</filename>
+		<filename>images/icon_mail.png</filename>
+		<filename>images/icon_twitter.png</filename>
 		<filename>images/indent1.png</filename>
 		<filename>images/indent2.png</filename>
 		<filename>images/indent3.png</filename>
 		<filename>images/indent4.png</filename>
 		<filename>images/login-bg.gif</filename>
-		<filename>images/logo.gif</filename>
 		<filename>images/logo.png</filename>
 		<filename>images/ol-bg.gif</filename>
 		<filename>images/opaque.png</filename>
@@ -172,6 +174,10 @@
 		<filename>images/vcat.gif</filename>
 		<filename>images/vdot.gif</filename>
 		<filename>images/vdot2.gif</filename>
+		<filename>images/header/20080209_12.46.48Horsten002.jpg</filename>
+		<filename>images/header/20100327_190532Narcis003.jpg</filename>
+		<filename>images/header/naam-bord-hildo-kroplaan.jpg</filename>
+		<filename>images/header/vlaggen-winkelcentrum.jpg</filename>
 		<filename>styles/background/lighter/images/arrow.png</filename>
 		<filename>styles/background/lighter/images/b-bl.gif</filename>
 		<filename>styles/background/lighter/images/b-br.gif</filename>
